@@ -32,15 +32,15 @@ src/
 ## Getting Started
 
 ### 1. Clone the repository:
-
+```bash 
 git clone https://github.com/Ashkelon1337/TeamCraft.git
 cd TeamCraft
-
+```
 ### 2. Rename .env.example to .env and enter your details.
 
 ### 3. Spin up the containers:
 
-docker-compose up --build
+```bash docker-compose up --build```
 
 Once up, the system automatically applies Alembic migrations and launches the web server.
 Interactive Swagger UI Docs: http://127.0.0.1:8000/docs
